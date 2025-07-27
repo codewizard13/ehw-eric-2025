@@ -1,0 +1,17 @@
+/*
+ File Name:    ehd-plugin--weatherwx.css
+ Purpose:      STYLES for weatherWX widget
+ */
+
+ .weatherwx {
+    min-height: 1.2rem;
+    max-width: 360px;
+    width: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    border: 1px solid green;
+    background-image: url(http://ehw.psite/wp-content/uploads/2021/11/ehd_logo_20211109_EHW_Long_LogoMakr_01.png);
+    background-repeat: no-repeat;
+    background-position: 98% 8px;
+    background-color: #F4F8F4;
+    background-size: 37%; color: #666666;
+  }

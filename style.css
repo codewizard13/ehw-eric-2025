@@ -1,0 +1,63 @@
+/*
+ Theme Name:   EHW Eric 2025
+ Theme URI:    --
+ Description:  Classic theme from scratch
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com/wp/themes
+ Version:      0.01
+ Date Created: 07/27/2025
+ Date Modified: --
+ 
+ Text Domain:  ehw-eric-2025
+ 
+ License: GNU General Public License v2 or later
+ License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:   
+
+*/
+
+/* ______________ GLOBAL STYLES _____________ */
+
+@import "styles/global/ehd-global--variables.css";
+@import "styles/global/ehd-global--pics.css";
+@import "styles/global/ehd-global--god-bible.css";
+@import "styles/global/ehd-global--misc.css";
+@import "styles/global/ehd-mobile-sm.css";
+
+
+/* ______________ MODULES ___________________ */
+
+@import "styles/modules/ehd-mod--quotes.css";
+@import "styles/modules/ehd-mod--sidebars.css";
+
+
+/* ______________ POST TYPES ________________ */
+
+@import "styles/posts/ehd-posts.css";
+
+@import "styles/posts/ehd-posts--course-notes.css";
+@import "styles/posts/ehd-posts--curated.css";
+@import "styles/posts/ehd-posts--pub-works.css";
+@import "styles/posts/ehd-post--arris-modem.css";
+
+
+/* ______________ PAGE TYPES ________________ */
+
+@import "styles/pages/ehd-pages.css";
+
+@import "styles/pages/ehd-pg--profile-links.css";
+@import "styles/pages/ehd-pg--freedom-sign.css"
+@import "styles/pages/ehd-pg--portfolio.css";
+
+
+/* ______________ ARCHIVES __________________ */
+
+@import "styles/archives/ehd-arch--search-results.css";
+
+/* ______________ PLUGINS ___________________ */
+
+/* @import "../../css/gh-profile-card.min.css"; */
+@import "styles/plugins/ehd-plugin--insta-smash.css";
+@import "styles/plugins/ehd-plugin--random-bible-verse.css";
+@import "styles/plugins/ehd-plugin--weatherwx.css";

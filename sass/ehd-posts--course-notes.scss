@@ -1,0 +1,123 @@
+/*
+ File Name:    ehd-posts--course-notes.scss
+ Purpose:      Styles for course notes
+ Author:       Eric Hepperle
+ Author URI:   http://erichepperle.com
+ Date Created: 11/01/2022
+ Date Changed: 11/15/2022
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ 
+ Tags:         Notes, Course Notes, LinkedIn, Lynda, Udemy, Skillshare
+
+*/
+
+:root {
+  --color-primary: cadetblue;
+  --color-secondary: forestgreen;
+  --color-accent: brown;
+
+  --color-link-primary: --color-lavender-600;
+  --color-link-primary-hover: --color-lavender-100;
+  --color-sidebar-link: var(--color-lavender-600);
+  --color-sidebar-link-hover: var(--color-lavender-100);
+
+  --color-teal-500: var(--color-air-superiority-blue);
+
+  --font-fam: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* ____________ HTML / BODY ________________ */
+
+.ehw-body.notes {
+  box-sizing: border-box;
+  font-family: var(--font-fam);
+
+  .course-title {
+    background: cadetblue;
+    color: aliceblue;
+    padding: 0.8rem 2rem;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    color: var(--color-primary);
+  }
+
+  /* ____________ COURSE & AUTHOR META ___________ */
+
+  #course-info,
+  #course-info ~ h2 {
+    color: cadetblue;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  table {
+    border: solid 2px brown;
+    margin: 0;
+    margin-bottom: 2em;
+
+    th,
+    td {
+      padding: 0.4em;
+      border-bottom: solid gray 1px;
+    }
+    th:first-of-type,
+    td:first-of-type {
+      background: #d6fafa;
+      font-weight: 600;
+      text-align: left;
+    }
+  }
+
+  #course-info-table {
+    th,
+    td {
+      padding: 0.4em;
+      border-bottom: solid gray 1px;
+    }
+    th {
+      background: gold;
+    }
+    /* Table Header as Title / Caption */
+    th:first-of-type {
+      background: gold;
+      text-align: center;
+    }
+
+    /* First Column in Row-Based table */
+    td:first-of-type {
+      background: antiquewhite;
+    }
+  }
+
+  /* ____________ SEC: Author Info ________________ */
+
+  /* .ehw-wrapper .course-notes-body .ehw-author-info */
+
+  .ehw-author-info {
+    display: flex;
+    padding: 0.6rem 0.4rem;
+    border: solid #8a8a8a 1px;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+    background: gainsboro;
+    padding: 1em 2em;
+  }
+
+  .author-img,
+  .course-img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}
